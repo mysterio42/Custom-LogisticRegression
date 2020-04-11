@@ -58,6 +58,7 @@ Do you want to save the model weight? yes
 Model saved at weights/LogReg-6a82p.pkl
 ```
 
+![Figure_5.png](figures/Figure_5.png)
 ![Figure_1.png](figures/Figure_1.png)
 ![Figure_2.png](figures/Figure_2.png)
 ![Figure_3.png](figures/Figure_3.png)
