@@ -32,18 +32,18 @@ Do you want to save the model weight? yes
 Model saved at weights/LogReg-6a82p.pkl
 ```
 
-### Train the model
+# Train the model
 ```shell
 python run.py
 python run.py --load 0
 ```
 
-### Load the weight model
+# Load the weight model
 ```shell
 python run.py --load 1
 ```
 
-### Training process
+# Training process
 ```text
 usage: run.py [-h] [--load LOAD]
 
@@ -64,16 +64,20 @@ Model saved at weights/LogReg-6a82p.pkl
 ![Figure_3.png](figures/Figure_3.png)
 ![Figure_4.png](figures/Figure_4.png)
 
-## Docker for Logistic Regression
+# Docker for Logistic Regression
 
-### Build Docker image
+## Build Docker image
+
 You can build Docker image by following:
+
 ```shell script
 docker-compose build
 ```
 
-### Run Docker container
+## Run Docker container
+
 You can launch a container from the Docker image by following:
+
 ```shell script
 docker-compose up
 ```
