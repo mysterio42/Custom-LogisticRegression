@@ -64,15 +64,15 @@ Model saved at weights/LogReg-6a82p.pkl
 ![Figure_3.png](figures/Figure_3.png)
 ![Figure_4.png](figures/Figure_4.png)
 
-### Docker for Logistic Regression
+## Docker for Logistic Regression
 
-## Build Docker image
+### Build Docker image
 You can build Docker image by following:
 ```shell script
 docker-compose build
 ```
 
-## Run Docker container
+### Run Docker container
 You can launch a container from the Docker image by following:
 ```shell script
 docker-compose up
