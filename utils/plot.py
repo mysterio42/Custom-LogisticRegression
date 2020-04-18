@@ -3,6 +3,16 @@ from matplotlib import pyplot as plt
 from utils.model import logistic
 
 
+def data_plot(x1, y1, x2, y2):
+    plt.title(f'Fake Generated Data to classify binary response')
+    plt.plot(x1, y1, 'ro', color='blue')
+    plt.plot(x2, y2, 'ro', color='red')
+
+
+    plt.axis([-2, 10, -0.5, 2])
+    plt.show()
+
+
 def model_plot(model, x1, y1, x2, y2):
     plt.title(f'Logistic Regression')
     plt.plot(x1, y1, 'ro', color='blue')

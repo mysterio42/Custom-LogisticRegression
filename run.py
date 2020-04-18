@@ -4,7 +4,7 @@ import numpy as np
 
 from utils.data import generate_data
 from utils.model import train_model, latest_modified_weight, load_model
-from utils.plot import model_plot, prediction_plot
+from utils.plot import model_plot, prediction_plot,data_plot
 
 
 def parse_args():
@@ -34,6 +34,7 @@ if __name__ == '__main__':
     if args.load:
         weight = latest_modified_weight()
         model = load_model(weight)
+        data_plot(x1, y1, x2, y2)
         model_plot(model, x1, y1, x2, y2)
         prediction_plot(model, x1, y1, x2, y2, 5.53)
         prediction_plot(model, x1, y1, x2, y2, 3.42)
